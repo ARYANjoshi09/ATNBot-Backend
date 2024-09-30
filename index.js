@@ -18,7 +18,7 @@ app.use(cors());
 // const BOT_TOKEN = '7118396575:AAFvahtATlJdTT6AvDFdCduF9GePNJ52aX4';
 // const BOT_TOKEN='7096079855:AAGj6EnVPqK3PuvkJEgrjYzkzXx6Coc4ZEQ' ;
 
-const BOT_TOKEN = process.env.BOT_TOKEN;
+const BOT_TOKEN = "7366624473:AAETLvShHK3UAg3nh6PTC3SLjuNn-Uc_lwI";
 
 let bot = new TelegramBot(BOT_TOKEN, { polling: true });
 
